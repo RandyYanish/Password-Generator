@@ -33,9 +33,17 @@ function generatePassword() {
     var numberSelect = confirm("Would you like to include Numbers?")
     var specialSelect = confirm("Would you like to include Special characters?")
   } 
-  
-  // password generation
 
+  // Empty string to push to
+  var randomPassword = "";
+
+  // Filter out unselected character types
+
+
+    // password generation
+  for (let i = randomPassword.length; i == passwordLength) {
+    let rand = Math.floor(Math.random() * choice.length)
+  }
 }
 
 
